@@ -1,0 +1,167 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Both Sides of the Coin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+ <body onload="Standard()"> 
+      
+<script>
+
+*/
+  p {font-size: 26px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #000000; /* purple */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #ffffff; /* Dark Green */
+      color: #000000;
+  }
+
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #ff00fa;
+  }
+      .bg-5{
+       background-color:#ffffff
+        color: #000000
+      }
+      
+    </script>
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
+
+  </style>
+</head>
+<body>
+
+
+<!-- First Container -->
+<div id = "bckgrnd" class="container-fluid bg-1 text-center">
+  <h3 class="margin">What's the game?</h3>
+  <img src="of the.png" class="img-responsive img-square margin" style="display:inline" alt="Profile" width="500" height="500">
+  <h3>Both Sides of the Coin is a visual novel with minigames about awareness and morality.</h3>
+
+
+    </div>
+
+
+<style>
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ff00fa;
+    background-color: #d6d6d6;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: yes;
+    outline: yes;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ffaffd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ff00fa;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ff00fa;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+    <h2 class="margin">Challenges</h2>
+
+<p>Our team encountered several problems. To get a closer look, click the tabs below.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">New Technology</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">New Topic</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Sprites</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>New Technology</h3>
+  <p>Perhaps the biggest challenge we faced: 
+ALL 3 members had to learn at least one new technology for this project-- those technologies being Unity, GameMaker, Ren’Py, and Photoshop.
+</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>New Topic</h3>
+  <p>Four days into development, we had to accommodate a significant change in topic after a reassessment of our (the makers’) initial concept.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Sprites</h3>
+  <p>Drawing the sprites-- although the task does not necessarily require heavy thinking, it is tedious and actually took the most time compared to all of our other challenges.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+  
+    
+<!-- Second Container -->
+<div id = "bg" class="container-fluid bg-2 text-center">
+  <h3 class="margin">How to get the game?</h3>
+  <h4>Follow these simple steps! </h4>
+    <h5> Step 1: Use the following link!</h5>
+    <a href="https://github.com/1000child/final_project"> GitHub</a>
+    <h5> Step 2: Download!</h5>
+    <p style="color:green;"> (Psst! Click the green button!)</p>
+    <h5> Step 3: Enjoy the game!</h5>
+    <p> Which shouldn't be any difficulty.</p>
+    <div class="row">
+        <div class="col-sm-4">
+    </div>
+</div>
+
+
+
+</body>
+</html>

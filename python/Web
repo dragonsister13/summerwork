@@ -1,0 +1,24 @@
+<!DOCTYPE html>      
+
+<title> About Me!</title>
+<h1 style="color:purple;"> My name is Kathryn Scarlet Morgana Highers, </h1>
+<h2 style="color:purple;"> but call me Katy! </h2>
+<img src="profile.jpg" alt="profile" width="150" height="200">
+<h3 style="color:purple;"> Bio.</h3>
+<p style="color:green;"> Literaly the most boring person in the world. I hope to become a video game developer. </p>
+<p style="color:green;"> Fun fact: I am a HUGE bookworm and gamer!
+<h2 style="color:purple;"> Personal Info </h2>
+<h3 style="color:purple;"> Likes </h3>
+<p style="color:green;"> Games, Friends, Purple, Green, The Joker, YouTube (Team Theorist!), and Music</p>
+<h3 style="color:purple;"> Dislkes </h3>
+<p style="color:green;"> Trolls and Bugs</p>
+<h2 style="color:purple;"> Favorite Websites </h2> 
+<p style="color:green;"><a href="https://www.rinmarugames.com">Rinmaru</a></p>  
+<p style="color:green;"><a href="https://www.youtube.com">YouTube</a></p>
+<p style="color:green;"><a href="http://store.steampowered.com">Steam</a></p>
+<p style="color:green;"><a href="https://www.wattpad.com/">Wattpad</a></p>
+<h3 style="color:purple;"> Recent Games</h3> 
+<h4 style="color:purple;"> Butterfly Blast </h4>
+<img src="butterfly.PNG" alt="game" width="500" height="400">
+<p style="color:green;"> In this sidescroller, help the butterfly collect fruit by guiding him through the sky filled with tasty fruit and dangerous clouds.</p>
+ 
